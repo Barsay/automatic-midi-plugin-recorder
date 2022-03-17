@@ -20,8 +20,13 @@ public:
         updater.setJustificationType(juce::Justification::bottomLeft);
         updater.setSize (200, 20);
 
-        VSTProcess.start("firefox", 0);
-
+        VSTProcess.start("helm", 0);
+        
+        if (VSTProcess.isRunning()) {
+            updater.setText("VST succesfully opened!", juce::dontSendNotification);
+        } else {
+            updater.setText("VST open failed!", juce::dontSendNotification);
+        }
     }
 
     void paint (juce::Graphics& g) override {}
