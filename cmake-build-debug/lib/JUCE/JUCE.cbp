@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JUCE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\JUCE\;CMake Files\lib\JUCE\extras\;CMake Files\lib\JUCE\extras\Build\;CMake Files\lib\JUCE\extras\Build\CMake\;CMake Files\lib\JUCE\extras\Build\juceaide\;CMake Files\lib\JUCE\modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\lib\;CMake Files\cmake-build-debug\lib\JUCE\;CMake Files\cmake-build-debug\lib\JUCE\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/thomas/develop/automatic-midi-plugin-recorder/cmake-build-debug/lib/JUCE"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thomas/develop/automatic-midi-plugin-recorder/cmake-build-debug/lib/JUCE/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thomas/develop/automatic-midi-plugin-recorder/cmake-build-debug/lib/JUCE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thomas/develop/automatic-midi-plugin-recorder/cmake-build-debug/lib/JUCE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thomas/develop/automatic-midi-plugin-recorder/cmake-build-debug/lib/JUCE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\JUCE\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/lib/JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\JUCE\modules\"/>
+		</Unit>
+		<Unit filename="/home/thomas/develop/automatic-midi-plugin-recorder/cmake-build-debug/lib/JUCE/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\lib\JUCE\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
